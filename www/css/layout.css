@@ -1,0 +1,189 @@
+/* 
+* copyright 2013 bureau54.com
+* 
+* www.bureau54.com
+*/
+
+/***** Screen 960px *****/
+
+.topbar{
+	position:fixed;
+	top:0;
+	height:40px;
+	background:rgba(0,0,0,0.8);
+	width:100%;
+	z-index:2000;
+	text-align:center;
+
+	
+}
+.topbar img{
+	margin-top:10px;
+}
+
+.footer{
+	position:fixed;
+	bottom:0px;
+	height:100px;
+	width:100%;
+	background:rgba(0,0,0,0.8);
+	padding-top:20px;
+	text-align:center;
+	
+}
+.footer-big{
+	position:fixed;
+	bottom:0px;
+	height:250px;
+	width:100%;
+	background:rgba(0,0,0,0.8);
+	padding-top:20px;
+	text-align:center;
+	
+}
+.footer-text{
+	color:#fff;
+	
+}
+.parkett{
+
+	overflow:hidden;
+}
+.parkett img{
+	height:100%;
+	width:auto;
+	margin: 0 auto;
+}
+
+
+
+
+/***** Screen Bigger than 960px *****/
+@media only screen and (min-width:1200px) {
+
+.topbar{
+	position:fixed;
+	top:0;
+	height:40px;
+	background:rgba(0,0,0,0.8);
+	width:100%;
+	z-index:2000;
+	text-align:center;
+
+	
+}
+
+.footer{
+	position:fixed;
+	bottom:0px;
+	height:100px;
+	width:100%;
+	background:rgba(0,0,0,0.8);
+	padding-top:20px;
+	text-align:center;
+	
+}
+.footer-big{
+	position:fixed;
+	bottom:0px;
+	height:250px;
+	width:100%;
+	background:rgba(0,0,0,0.8);
+	padding-top:20px;
+	text-align:center;
+	
+}
+.footer-text{
+	color:#fff;
+	
+}
+
+
+}
+
+
+
+/***** Tablet (Smaller than 959px) *****/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.topbar{
+	position:fixed;
+	top:0;
+	height:40px;
+	background:rgba(0,0,0,0.8);
+	width:100%;
+	z-index:2000;
+	text-align:center;
+
+	
+}
+
+.footer{
+	position:fixed;
+	bottom:0px;
+	height:100px;
+	width:100%;
+	background:rgba(0,0,0,0.8);
+	padding-top:10px;
+	
+}
+.footer-text{
+	color:#fff;
+	font-size:14px;
+	
+}
+
+
+}
+
+
+
+/***** Phone (portrait 300px) *****/
+@media only screen and (max-width: 767px) {
+.topbar{
+	position:fixed;
+	top:0;
+	height:40px;
+	background:rgba(0,0,0,0.8);
+	width:100%;
+	z-index:2000;
+	text-align:center;
+
+	
+}
+
+.footer{
+	position:fixed;
+	bottom:0px;
+	height:100px;
+	width:100%;
+	background:rgba(0,0,0,0.8);
+	padding-top:10px;
+	
+}
+.footer-text{
+	color:#fff;
+	font-size:12px;
+	
+}
+
+
+}
+
+
+	
+/***** Phone (landscape 420px) *****/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+
+}
+
+
+
+/***** Retina *****/
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) {
+
+
+
+}
